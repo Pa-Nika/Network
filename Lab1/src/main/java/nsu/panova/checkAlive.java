@@ -1,19 +1,17 @@
 package nsu.panova;
 
 import java.net.InetAddress;
-import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
-import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.TimeUnit;
 
-public class checkAlive extends Thread {
-    Map<UUID, InetAddress> copies = new HashMap<>();
-    Map<UUID, Long> timeLastAnswer = new HashMap<>();
+public class CheckAlive {
+    private final Map<UUID, InetAddress> copies;
+    private final Map<UUID, Long> timeLastAnswer;
 
-    checkAlive(Map<UUID, InetAddress> copies, Map<UUID, Long> time) {
+    CheckAlive(Map<UUID, InetAddress> copies, Map<UUID, Long> time) {
         this.copies = copies;
         this.timeLastAnswer = time;
     }
@@ -38,7 +36,7 @@ public class checkAlive extends Thread {
                 }
             }
         };
-        final ScheduledFuture<?> checkerHandle =
-                scheduler.scheduleAtFixedRate(checker, 0, 1, TimeUnit.SECONDS);
+
+        scheduler.scheduleAtFixedRate(checker, 0, 1, TimeUnit.SECONDS);
     }
 }

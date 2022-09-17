@@ -6,36 +6,41 @@ import java.net.InetAddress;
 import java.net.MulticastSocket;
 import java.util.UUID;
 
-public class Sender extends Thread {
-    MulticastSocket socket;
-    InetAddress address;
-    DatagramPacket sendPacket;
-    UUID uuid;
+public class Sender implements Runnable {
+    private final MulticastSocket socket;
+    private InetAddress address;
+    private final DatagramPacket sendPacket;
+    private UUID uuid;
 
-    EncryptPackage packetInfo = new EncryptPackage();
+    private EncryptPackage packetInfo = new EncryptPackage();
 
     private static final int LOCAL_PORT = 8000;
 
-    Sender (String addressOfGroup, UUID uuid) {
+    Sender (MulticastSocket socket, String addressOfGroup, UUID uuid) {
         try {
             address = InetAddress.getByName(addressOfGroup);
-            socket = new MulticastSocket(LOCAL_PORT);
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }
-
+        this.socket = socket;
         this.uuid = uuid;
         byte[] packetByte = packetInfo.getIdAsByte(uuid);
         sendPacket = new DatagramPacket(packetByte, packetByte.length, address, LOCAL_PORT);
     }
 
-    @Override
-    public void run(){
+    public void exit() {
+        socket.close();
+    }
 
-        while(true)  {
+    @Override
+    public void run() {
+        while (!Thread.interrupted()) {
             try {
-                socket.send(sendPacket);
-            } catch (IOException ignored) { }
+                synchronized (socket) {
+                    socket.send(sendPacket);
+                }
+            } catch (IOException ignored) {
+            }
         }
     }
 }

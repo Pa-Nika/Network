@@ -6,22 +6,25 @@ import java.net.InetAddress;
 import java.net.MulticastSocket;
 import java.util.UUID;
 
-public class Receiver extends Thread {
-    MulticastSocket socket;
-    InetAddress address;
-    DatagramPacket receivePacket;
+public class Receiver implements Runnable {
+    private final MulticastSocket socket;
+    private InetAddress address;
+    private final DatagramPacket receivePacket;
 
-    private static final int LOCAL_PORT = 8000;
     private static final int PACKET_SIZE = 16;
 
-    Receiver(String addressOfGroup) {
+    Receiver(MulticastSocket socket, String addressOfGroup) {
         try {
             address = InetAddress.getByName(addressOfGroup);
-            socket = new MulticastSocket(LOCAL_PORT);
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }
         receivePacket = new DatagramPacket(new byte[PACKET_SIZE], PACKET_SIZE);
+        this.socket = socket;
+    }
+
+    public void exit() {
+        socket.close();
     }
 
     @Override
@@ -35,14 +38,18 @@ public class Receiver extends Thread {
             System.out.println(e.getMessage());
         }
 
-        while (true) {
+        while (!Thread.interrupted()) {
             try {
-                socket.receive(receivePacket);
-            } catch (IOException ignored) { }
+                synchronized(socket) {
+                    socket.receive(receivePacket);
+                }
+            } catch (IOException ignored) {
+            }
 
             UUID receiveUuid = packetInfo.getIdFromByte(receivePacket.getData());
             InetAddress receiveAddress = receivePacket.getAddress();
-            keepCopies.CheckMap(receiveAddress, receiveUuid);
+            keepCopies.checkMap(receiveAddress, receiveUuid);
         }
+
     }
 }
