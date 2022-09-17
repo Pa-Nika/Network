@@ -6,6 +6,7 @@ import java.util.UUID;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class CheckAlive {
     private final Map<UUID, InetAddress> copies;
@@ -20,19 +21,17 @@ public class CheckAlive {
             Executors.newScheduledThreadPool(1);
 
     public void checkAliveCopies() {
-        final Runnable checker = new Runnable() {
-            public void run() {
-                for (Map.Entry<UUID, Long> entry : timeLastAnswer.entrySet()) {
-                    if (System.currentTimeMillis() - entry.getValue() > 1000) {
-                        if (copies.containsKey(entry.getKey())) {
-                            copies.remove(entry.getKey());
-                            System.out.println("The number of copies has changed");
-                            for (InetAddress value : copies.values()) {
-                                System.out.println(value);
-                            }
+        final Runnable checker = () -> {
+            for (Map.Entry<UUID, Long> entry : timeLastAnswer.entrySet()) {
+                if (System.currentTimeMillis() - entry.getValue() > 1000) {
+                    if (copies.containsKey(entry.getKey())) {
+                        copies.remove(entry.getKey());
+                        System.out.println("The number of copies has changed");
+                        for (InetAddress value : copies.values()) {
+                            System.out.println(value);
                         }
-                        timeLastAnswer.remove(entry.getKey());
                     }
+                    timeLastAnswer.remove(entry.getKey());
                 }
             }
         };
