@@ -13,7 +13,7 @@ public class Receiver implements Runnable {
 
     private static final int PACKET_SIZE = 16;
 
-    Receiver(MulticastSocket socket, String addressOfGroup) {
+    public Receiver(MulticastSocket socket, String addressOfGroup) {
         try {
             address = InetAddress.getByName(addressOfGroup);
         } catch (IOException e) {
@@ -21,10 +21,6 @@ public class Receiver implements Runnable {
         }
         receivePacket = new DatagramPacket(new byte[PACKET_SIZE], PACKET_SIZE);
         this.socket = socket;
-    }
-
-    public void exit() {
-        socket.close();
     }
 
     @Override

@@ -9,7 +9,7 @@ public class KeepCopies {
     private final Map<UUID, InetAddress> copies = new HashMap<>();
     private final Map<UUID, Long> timeLastAnswer = new HashMap<>();
 
-    KeepCopies() {
+    public KeepCopies() {
         CheckAlive isAlive = new CheckAlive(copies, timeLastAnswer);
         isAlive.checkAliveCopies();
     }

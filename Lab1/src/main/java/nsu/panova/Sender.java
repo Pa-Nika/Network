@@ -16,7 +16,7 @@ public class Sender implements Runnable {
 
     private static final int LOCAL_PORT = 8000;
 
-    Sender (MulticastSocket socket, String addressOfGroup, UUID uuid) {
+    public Sender (MulticastSocket socket, String addressOfGroup, UUID uuid) {
         try {
             address = InetAddress.getByName(addressOfGroup);
         } catch (IOException e) {
@@ -26,10 +26,6 @@ public class Sender implements Runnable {
         this.uuid = uuid;
         byte[] packetByte = packetInfo.getIdAsByte(uuid);
         sendPacket = new DatagramPacket(packetByte, packetByte.length, address, LOCAL_PORT);
-    }
-
-    public void exit() {
-        socket.close();
     }
 
     @Override

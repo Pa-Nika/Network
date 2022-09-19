@@ -6,13 +6,12 @@ import java.util.UUID;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
-import java.util.concurrent.atomic.AtomicInteger;
 
 public class CheckAlive {
     private final Map<UUID, InetAddress> copies;
     private final Map<UUID, Long> timeLastAnswer;
 
-    CheckAlive(Map<UUID, InetAddress> copies, Map<UUID, Long> time) {
+    public CheckAlive(Map<UUID, InetAddress> copies, Map<UUID, Long> time) {
         this.copies = copies;
         this.timeLastAnswer = time;
     }
