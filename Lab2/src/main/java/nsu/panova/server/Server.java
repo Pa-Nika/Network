@@ -6,7 +6,6 @@ import java.net.Socket;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.logging.LogManager;
-import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Server {
@@ -21,21 +20,21 @@ public class Server {
         }
 
         if (args.length != 1) {
-            log.log(Level.SEVERE, "Incorrect count of args");
+            log.severe( "Incorrect count of args");
             System.exit(1);
         }
         int portNumber = Integer.parseInt(args[0]);
         ExecutorService threadPool = Executors.newCachedThreadPool();
 
         try (ServerSocket serverSocket = new ServerSocket(portNumber)) {
-            log.log(Level.INFO, "Create server socket");
+            log.info( "Create server socket");
             ExitServer exitServer = new ExitServer(serverSocket);
             Thread exitThread = new Thread(exitServer);
             exitThread.start();
 
             while (!serverSocket.isClosed()) {
                 Socket newConnection = serverSocket.accept();
-                log.log(Level.INFO, "Client socket connect");
+                log.info("Client socket connect");
                 DownloadFile downloadFile = new DownloadFile(newConnection);
                 threadPool.submit(downloadFile);
             }
@@ -44,10 +43,10 @@ public class Server {
             exitThread.interrupt();
             exitThread.join();
         } catch (IOException e) {
-            log.log(Level.SEVERE, "Can't take connection with client socket");
+            log.severe( "Can't take connection with client socket");
             System.out.println(e.getMessage());
         } catch (InterruptedException e) {
-            log.log(Level.SEVERE, "Can't join exitThread");
+            log.severe( "Can't join exitThread");
             System.out.println(e.getMessage());
         }
     }

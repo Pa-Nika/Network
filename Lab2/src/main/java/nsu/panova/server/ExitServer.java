@@ -3,7 +3,6 @@ package nsu.panova.server;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.util.Scanner;
-import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class ExitServer implements Runnable {
@@ -21,10 +20,10 @@ public class ExitServer implements Runnable {
         if ("exit".equals(word)) {
             try {
                 socket.close();
-                log.log(Level.INFO, "Server socket close");
+                log.info("Server socket close");
                 System.exit(0);
             } catch (IOException e) {
-                log.log(Level.SEVERE, "Can't close server socket");
+                log.severe( "Can't close server socket");
                 System.out.println(e.getMessage());
             }
         }

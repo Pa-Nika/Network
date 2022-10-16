@@ -4,7 +4,6 @@ import java.io.*;
 import java.net.Socket;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class SenderFile {
@@ -24,7 +23,7 @@ public class SenderFile {
             dataInputStream = new DataInputStream(socket.getInputStream());
             dataOutputStream = new DataOutputStream(socket.getOutputStream());
         } catch (IOException e) {
-            log.log(Level.SEVERE, "Can't create data streams");
+            log.severe( "Can't create data streams");
         }
     }
 
@@ -34,7 +33,7 @@ public class SenderFile {
             dataOutputStream.close();
             socket.close();
         } catch (IOException e) {
-            log.log(Level.SEVERE, "Can't free client data");
+            log.severe( "Can't free client data");
             System.out.println(e.getMessage());
         }
     }
@@ -47,17 +46,17 @@ public class SenderFile {
             Boolean serverAnswer = protocol.checkAnswer(dataInputStream);
             if (serverAnswer) {
                 System.out.println("Successful connection");
-                log.log(Level.INFO, "Successful connection for client " + socket.getInetAddress());
+                log.info( "Successful connection for client " + socket.getInetAddress());
                 protocol.sendAck(1, dataOutputStream);
             }
             else {
                 System.out.println("Not successful connection");
-                log.log(Level.INFO, "Not successful connection for client " + socket.getInetAddress());
+                log.info( "Not successful connection for client " + socket.getInetAddress());
                 protocol.sendAck(0, dataOutputStream);
             }
             freeData();
         } catch (IOException e) {
-            log.log(Level.SEVERE, "Exception during work with protocol");
+            log.severe( "Exception during work with protocol");
             freeData();
             System.out.println(e.getMessage());
         }

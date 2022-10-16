@@ -10,7 +10,6 @@ import java.security.NoSuchAlgorithmException;
 import java.util.Arrays;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
-import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import static java.lang.Thread.sleep;
@@ -55,14 +54,14 @@ public class DownloadFile implements Runnable {
             getAnswer();
             closeConnection();
         } catch (IOException | NoSuchAlgorithmException | InterruptedException e) {
-            log.log(Level.SEVERE, "Exception during download file");
+            log.severe( "Exception during download file");
             e.printStackTrace();
         } finally {
             try {
                 dataOutputStream.close();
                 dataInputStream.close();
             } catch (IOException e) {
-                log.log(Level.SEVERE, "Exception while trying to close the streams");
+                log.severe( "Exception while trying to close the streams");
                 e.printStackTrace();
             }
         }
@@ -96,13 +95,13 @@ public class DownloadFile implements Runnable {
 
         System.out.println("Client - " + clientSocket.getInetAddress() + ". Speed now = " +
                 speedNow + " B/s. Speed all time = " + speedAllTime + " B/s.");
-        log.log(Level.INFO, "Print speed");
+        log.info ( "Print speed");
     }
     
     private void writeFile() throws IOException {
         var scheduledThreadPool = Executors.newScheduledThreadPool(CORE_POOL_SIZE);
         scheduledThreadPool.scheduleAtFixedRate(this::countSpeed, INITIAL_DELAY, PERIOD, TimeUnit.SECONDS);
-        log.log(Level.INFO, "Start timer for client " + clientSocket.getInetAddress());
+        log.info( "Start timer for client " + clientSocket.getInetAddress());
 
         byte[] array;
         int readSize = dataInputStream.readInt();
@@ -123,7 +122,7 @@ public class DownloadFile implements Runnable {
         }
         scheduledThreadPool.shutdown();
         hashServerFile = md.digest();
-        log.log(Level.INFO, "Read all file from " + clientSocket.getInetAddress());
+        log.info( "Read all file from " + clientSocket.getInetAddress());
     }
 
     private void checkHash() throws IOException, InterruptedException {
@@ -138,6 +137,6 @@ public class DownloadFile implements Runnable {
 
     private void closeConnection() throws IOException {
         clientSocket.close();
-        log.log(Level.INFO, "Close connection with client " + clientSocket.getInetAddress());
+        log.info( "Close connection with client " + clientSocket.getInetAddress());
     }
 }

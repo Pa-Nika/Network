@@ -8,7 +8,6 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Protocol {
@@ -24,7 +23,7 @@ public class Protocol {
         try {
             md = MessageDigest.getInstance("SHA-256");
         } catch (NoSuchAlgorithmException e) {
-            log.log(Level.SEVERE, "Can't create MessageDigest. Not algorithm");
+            log.severe( "Can't create MessageDigest. Not algorithm");
             System.out.println(e.getMessage());
         }
         byte[] buffer = new byte[ARR_SIZE];
@@ -32,15 +31,12 @@ public class Protocol {
 
         try (InputStream is = Files.newInputStream(filePath)) {
             while (0 < (readSize = is.read(buffer))) {
-                assert md != null;
                 md.update(buffer, 0, readSize);
             }
         } catch (IOException e) {
-            log.log(Level.SEVERE, "Can't create input stream");
+            log.severe( "Can't create input stream");
             System.out.println(e.getMessage());
         }
-
-        assert md != null;
         hashOfFile = md.digest();
     }
 
