@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #015C65;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nsu.panova.start.ControllerStartWindow">
+   <children>
+      <AnchorPane layoutX="25.0" layoutY="58.0" prefHeight="332.0" prefWidth="550.0" style="-fx-background-color: #35C0CD; -fx-border-insets: 10;">
+         <children>
+            <Label alignment="CENTER" layoutY="44.0" prefHeight="58.0" prefWidth="550.0" text="Enter place">
+               <font>
+                  <Font name="Perpetua Titling MT Light" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="place" layoutX="200.0" layoutY="123.0" onAction="#enterPlace" promptText="Place" />
+            <Button layoutX="223.0" layoutY="166.0" mnemonicParsing="false" onAction="#onSearchClick" prefHeight="39.0" prefWidth="103.0" text="Search" />
+         </children>
+      </AnchorPane>
+      <Label alignment="CENTER" layoutX="25.0" prefHeight="57.0" prefWidth="550.0" text="COSMO PLACE">
+         <font>
+            <Font name="Perpetua Titling MT Bold" size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

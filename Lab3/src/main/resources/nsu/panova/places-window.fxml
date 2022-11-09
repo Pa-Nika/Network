@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #35C0Cd;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nsu.panova.listPlaces.ControllerPlaces">
+   <children>
+      <Label fx:id="placeName" alignment="CENTER" layoutY="15.0" prefHeight="45.0" prefWidth="600.0">
+         <font>
+            <Font name="Perpetua Titling MT Bold" size="16.0" />
+         </font>
+      </Label>
+      <ListView fx:id="listView" layoutX="14.0" layoutY="60.0" onMouseClicked="#onMouseClick" prefHeight="327.0" prefWidth="572.0" />
+   </children>
+</AnchorPane>
