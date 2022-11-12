@@ -5,7 +5,10 @@ import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextArea;
 import lombok.Setter;
+import nsu.panova.Main;
+import nsu.panova.listPlaces.LoaderListPlacesWindow;
 import nsu.panova.listPlaces.weather.WeatherReader;
+import nsu.panova.start.place.Place;
 import nsu.panova.start.place.Point;
 import nsu.panova.weather.description.Description;
 import nsu.panova.weather.nearestPlaces.NearestPlaces;
@@ -23,8 +26,10 @@ public class ControllerWeather {
     private CompletableFuture<WeatherReader> weather;
     private CompletableFuture<NearestPlaces> nearestPlaces;
     private CompletableFuture<Description> descriptionOfPlace;
+    @Setter private CompletableFuture<Place> place;
     @Setter private ModelWeatherWindow model;
     @Setter private Point point;
+    @Setter private String userPlaceFromStart;
     private int index;
     private Boolean noInfo = false;
 
@@ -90,5 +95,13 @@ public class ControllerWeather {
                     }
                     description.appendText(description_.toString());
                 })));
+    }
+
+    @FXML
+    public void backClick() {
+        LoaderListPlacesWindow loaderListPlaces = new LoaderListPlacesWindow();
+        loaderListPlaces.setUserPlace(userPlaceFromStart);
+        loaderListPlaces.setPlace(place);
+        Main.setNewLoader(loaderListPlaces);
     }
 }

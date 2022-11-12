@@ -62,11 +62,7 @@ public class ModelStartWindow {
                 .uri(URI.create(requestURIString))
                 .build();
 
-
-
         HttpClient httpClient = HttpClient.newHttpClient();
-
-        System.out.println(requestURIString);
 
         return httpClient.sendAsync(request, HttpResponse.BodyHandlers.ofString())
                 .thenApply(HttpResponse::body)

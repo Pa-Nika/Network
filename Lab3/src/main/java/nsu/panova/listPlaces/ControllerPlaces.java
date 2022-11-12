@@ -4,6 +4,8 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import lombok.Setter;
+import nsu.panova.Main;
+import nsu.panova.start.LoaderStartWindow;
 import nsu.panova.start.place.Hits;
 import nsu.panova.start.place.Place;
 
@@ -55,5 +57,11 @@ public class ControllerPlaces {
         modelPlaceWindow.setPlace(place);
         modelPlaceWindow.setIndex(index);
         modelPlaceWindow.work();
+    }
+
+    @FXML
+    public void backClick() {
+        LoaderStartWindow loaderStartWindow = new LoaderStartWindow();
+        Main.setNewLoader(loaderStartWindow);
     }
 }

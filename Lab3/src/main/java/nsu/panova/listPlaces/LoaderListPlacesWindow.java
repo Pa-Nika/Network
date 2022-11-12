@@ -24,6 +24,7 @@ public class LoaderListPlacesWindow extends Application implements InterfaceLoad
         controller.setUserPlace(userPlace);
         controller.setPlace(place);
         controller.setModelPlaceWindow(model);
+        model.setUserPlace(userPlace);
 
         stage.setTitle("COSMO");
         stage.setScene(scene);

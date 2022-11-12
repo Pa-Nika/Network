@@ -8,13 +8,16 @@ import lombok.Setter;
 import nsu.panova.InterfaceLoaders;
 import nsu.panova.Main;
 import nsu.panova.listPlaces.weather.WeatherReader;
+import nsu.panova.start.place.Place;
 import nsu.panova.start.place.Point;
 
 import java.util.concurrent.CompletableFuture;
 
 public class LoaderWeatherWindow extends Application implements InterfaceLoaders {
     @Setter private String userPlace;
+    @Setter private String userPlaceFromStart;
     @Setter private CompletableFuture<WeatherReader> weather;
+    @Setter private CompletableFuture<Place> place;
     private ModelWeatherWindow model = new ModelWeatherWindow();
     @Setter private Point point;
 
@@ -29,7 +32,8 @@ public class LoaderWeatherWindow extends Application implements InterfaceLoaders
         model.setController(controller);
         controller.setWeather(weather);
         controller.setPlaceName(userPlace);
-
+        controller.setUserPlaceFromStart(userPlaceFromStart);
+        controller.setPlace(place);
 
         stage.setTitle("COSMO");
         stage.setScene(scene);

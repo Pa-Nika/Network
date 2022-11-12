@@ -26,6 +26,7 @@ import static java.net.http.HttpRequest.newBuilder;
 public class ModelPlaceWindow {
     @Setter private CompletableFuture<Place> place;
     @Setter private int index;
+    @Setter private String userPlace;
     private Point point;
     private Properties properties;
     private CompletableFuture<WeatherReader> weather;
@@ -89,6 +90,8 @@ public class ModelPlaceWindow {
             loaderWeatherWindow.setUserPlace(place.get().getHits().get(index).getName());
             loaderWeatherWindow.setWeather(weather);
             loaderWeatherWindow.setPoint(point);
+            loaderWeatherWindow.setUserPlaceFromStart(userPlace);
+            loaderWeatherWindow.setPlace(place);
             Main.setNewLoader(loaderWeatherWindow);
         } catch (InterruptedException | ExecutionException e) {
             e.printStackTrace();
