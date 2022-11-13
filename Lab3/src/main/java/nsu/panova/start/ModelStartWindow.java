@@ -1,6 +1,7 @@
 package nsu.panova.start;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
+import lombok.Setter;
 import lombok.SneakyThrows;
 import nsu.panova.Main;
 import nsu.panova.listPlaces.LoaderListPlacesWindow;
@@ -20,7 +21,8 @@ import java.util.concurrent.CompletableFuture;
 import static java.net.http.HttpRequest.newBuilder;
 
 public class ModelStartWindow {
-    private String userPlace;
+    @Setter private String userPlace;
+    @Setter private String requestString;
     private Properties properties;
     private static String keyGraphhopper;
     private CompletableFuture<Place> place;
@@ -53,7 +55,7 @@ public class ModelStartWindow {
     @SneakyThrows
     private CompletableFuture<Place> sendRequest() throws URISyntaxException {
         String requestURIString = String.format("https://graphhopper.com/api/1/geocode?q=%s&locale=de&key=%s",
-                userPlace,
+                requestString,
                 keyGraphhopper
         );
 
