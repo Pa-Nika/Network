@@ -1,0 +1,36 @@
+2022-12-18 14:54:59,281 [JavaFX Application Thread] INFO - Start game on client!
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.controller.GameController.start(GameController.java:110)
+2022-12-18 14:54:59,334 [pool-5-thread-1] INFO - Trying receive message... on port=49315, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:54:59,835 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:53)
+2022-12-18 14:54:59,837 [pool-5-thread-1] INFO - Trying receive message... on port=49315, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:55:00,337 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:53)
+2022-12-18 14:55:00,338 [pool-5-thread-1] INFO - Trying receive message... on port=49315, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:55:00,349 [pool-2-thread-1] INFO - Connect 49315 /172.23.224.1
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.mcHandlers.MenuHandler.changeListAvailableServer(MenuHandler.java:36)
+2022-12-18 14:55:00,838 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:53)
+2022-12-18 14:55:00,839 [pool-5-thread-1] INFO - Trying receive message... on port=49315, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:55:01,340 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:53)
+2022-12-18 14:55:01,341 [pool-5-thread-1] INFO - Trying receive message... on port=49315, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:55:01,841 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:53)
+2022-12-18 14:55:01,842 [pool-5-thread-1] INFO - Trying receive message... on port=49315, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:55:02,342 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:53)
+2022-12-18 14:55:02,343 [pool-5-thread-1] INFO - Trying receive message... on port=49315, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:55:02,846 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:53)
+2022-12-18 14:55:02,847 [pool-5-thread-1] INFO - Trying receive message... on port=49315, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:55:03,347 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:53)

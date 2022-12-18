@@ -1,0 +1,1432 @@
+2022-12-18 14:58:44,123 [pool-2-thread-1] INFO - Connect 54482 /172.23.224.1
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.mcHandlers.MenuHandler.changeListAvailableServer(MenuHandler.java:36)
+2022-12-18 14:58:52,000 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:52,030 [pool-4-thread-2] INFO - Send to /172.23.224.1, 54482 JOIN
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:52,036 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:52,039 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:52,041 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:52,056 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:52,058 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 ROLE_CHANGE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:52,060 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:52,061 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:52,218 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:52,219 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:52,220 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:52,220 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:52,265 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:52,282 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:52,282 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:52,286 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:58:52,287 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:58:52,289 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:52,418 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:52,419 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:52,419 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:52,420 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:52,616 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:52,617 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:52,617 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:52,618 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:52,768 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:52,768 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:52,769 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:52,770 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:58:52,770 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:58:52,772 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:52,917 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:52,917 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:52,917 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:52,918 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:53,117 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:53,118 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:53,118 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:53,119 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:53,272 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:53,273 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:53,274 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:53,275 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:58:53,276 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:58:53,277 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:53,417 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:53,417 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:53,417 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:53,418 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:53,617 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:53,617 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:53,618 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:53,619 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:53,775 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:53,776 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:53,776 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:53,777 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:58:53,778 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:58:53,779 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:53,917 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:53,917 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:53,917 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:53,918 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:54,116 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:54,117 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:54,117 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:54,118 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:54,278 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:54,279 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:54,279 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:54,280 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:58:54,281 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:58:54,282 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:54,417 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:54,417 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:54,418 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:54,419 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:54,617 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:54,617 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:54,617 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:54,618 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:54,779 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:54,780 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:54,780 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:54,781 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:58:54,782 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:58:54,783 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:54,916 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:54,917 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:54,917 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:54,917 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:55,118 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:55,118 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:55,119 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:55,120 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:55,283 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:55,284 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:55,285 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:55,285 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:58:55,286 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:58:55,287 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:55,418 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:55,418 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:55,418 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:55,419 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:55,617 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:55,618 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:55,618 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:55,619 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:55,783 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:55,784 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:55,785 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:55,786 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:58:55,786 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:58:55,787 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:55,915 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:55,916 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:55,916 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:55,917 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:56,017 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:56,017 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:56,018 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:56,019 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:56,118 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:56,119 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:56,119 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:56,121 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:56,284 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:56,285 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:56,285 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:56,286 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:58:56,286 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:58:56,287 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:56,417 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:56,417 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:56,417 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:56,418 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:56,617 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:56,618 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:56,618 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:56,619 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:56,788 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:56,789 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:56,789 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:56,790 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:58:56,791 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:58:56,792 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:56,917 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:56,917 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:56,918 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:56,919 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:57,117 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:57,117 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:57,118 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:57,118 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:57,290 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:57,291 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:57,291 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:57,292 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:58:57,293 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:58:57,294 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:57,417 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:57,418 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:57,418 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:57,419 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:57,616 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:57,616 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:57,617 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:57,618 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:57,717 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:57,717 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:57,718 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:57,718 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:57,793 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:57,793 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:57,794 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:57,795 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:58:57,796 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:58:57,797 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:57,917 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:57,918 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:57,918 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:57,918 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:58,018 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:58,018 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:58,018 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:58,019 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:58,217 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:58,218 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:58,218 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:58,219 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:58,294 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:58,295 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:58,295 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:58,296 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:58:58,297 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:58:58,297 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:58,361 [pool-3-thread-1] INFO - Send to /172.23.224.1, 54482 STEER
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:58,363 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:58,364 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:58,364 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:58,517 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:58,517 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:58,518 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:58,518 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:58,717 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:58,717 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:58,718 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:58,718 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:58,797 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:58,798 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:58,799 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:58,800 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:58:58,801 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:58:58,802 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:58,917 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:58,917 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:58,917 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:58,918 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:59,117 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:59,118 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:59,118 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:59,119 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:59,298 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:59,299 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:59,299 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:59,300 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:58:59,300 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:58:59,301 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:59,417 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:59,417 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:59,417 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:59,417 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:59,518 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:59,518 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:59,519 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:59,519 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:59,716 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:59,716 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:59,717 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:59,717 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:59,801 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:59,802 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:59,802 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:59,803 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:58:59,804 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:58:59,804 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:58:59,918 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:58:59,918 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:58:59,919 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:58:59,920 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:00,117 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:00,117 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:00,117 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:00,118 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:00,302 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:00,303 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:00,303 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:00,304 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:00,305 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:00,306 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:00,415 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:00,416 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:00,416 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:00,416 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:00,617 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:00,617 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:00,618 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:00,619 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:00,718 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:00,718 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:00,718 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:00,719 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:00,805 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:00,805 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:00,806 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:00,807 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:00,807 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:00,808 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:00,916 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:00,917 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:00,917 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:00,918 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:01,118 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:01,118 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:01,118 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:01,119 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:01,226 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:01,227 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:01,227 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:01,227 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:01,306 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:01,307 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:01,307 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:01,307 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:01,308 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:01,308 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:01,415 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:01,416 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:01,416 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:01,416 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:01,517 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:01,517 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:01,518 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:01,518 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:01,718 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:01,718 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:01,718 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:01,718 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:01,807 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:01,807 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:01,808 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:01,809 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:01,809 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:01,810 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:01,918 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:01,918 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:01,918 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:01,919 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:02,116 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:02,116 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:02,116 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:02,116 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:02,218 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:02,218 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:02,218 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:02,219 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:02,308 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:02,309 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:02,309 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:02,310 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:02,310 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:02,310 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:02,417 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:02,418 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:02,418 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:02,419 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:02,617 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:02,617 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:02,618 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:02,618 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:02,718 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:02,718 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:02,718 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:02,719 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:02,813 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:02,814 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:02,815 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:02,816 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:02,816 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:02,817 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:02,916 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:02,917 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:02,917 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:02,917 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:03,116 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:03,116 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:03,117 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:03,118 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:03,218 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:03,218 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:03,218 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:03,219 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:03,313 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:03,315 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:03,315 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:03,317 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:03,318 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:03,320 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:03,416 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:03,417 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:03,417 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:03,417 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:03,617 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:03,618 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:03,618 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:03,619 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:03,812 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:03,813 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:03,815 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:03,818 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:03,819 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:03,819 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:03,918 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:03,919 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:03,919 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:03,920 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:04,118 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:04,118 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:04,118 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:04,119 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:04,317 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:04,319 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:04,320 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:04,321 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:04,322 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:04,323 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:04,416 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:04,416 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:04,416 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:04,417 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:04,517 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:04,517 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:04,517 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:04,518 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:04,716 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:04,716 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:04,716 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:04,717 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:04,820 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:04,822 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:04,822 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:04,823 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:04,823 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:04,824 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:05,016 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:05,016 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:05,017 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:05,017 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:05,116 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:05,117 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:05,117 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:05,117 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:05,316 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:05,316 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:05,316 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:05,317 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:05,320 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:05,321 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:05,321 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:05,322 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:05,322 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:05,323 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:05,516 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:05,516 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:05,517 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:05,517 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:05,617 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:05,617 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:05,617 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:05,618 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:05,817 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:05,817 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:05,817 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:05,817 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:05,823 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:05,824 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:05,824 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:05,825 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:05,825 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:05,826 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:06,017 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:06,017 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:06,018 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:06,018 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:06,216 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:06,216 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:06,217 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:06,217 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:06,328 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:06,329 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:06,330 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:06,331 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:06,331 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:06,332 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:06,516 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:06,516 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:06,517 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:06,517 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:06,617 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:06,617 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:06,617 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:06,618 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:06,816 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:06,816 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:06,817 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:06,817 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:06,825 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:06,827 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:06,827 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:06,828 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:06,828 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:06,829 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:07,017 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:07,017 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:07,018 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:07,018 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:07,218 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:07,218 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:07,218 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:07,219 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:07,328 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:07,328 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:07,329 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:07,329 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:07,330 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:07,331 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:07,518 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:07,518 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:07,519 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:07,519 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:07,715 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:07,716 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:07,716 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:07,716 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:07,817 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:07,817 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:07,817 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:07,818 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:07,829 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:07,830 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:07,830 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:07,832 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:07,832 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:07,833 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:08,017 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:08,017 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:08,017 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:08,017 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:08,117 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:08,117 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:08,118 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:08,119 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:08,218 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:08,218 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:08,218 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:08,219 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:08,326 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:08,327 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:08,327 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:08,328 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:08,329 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:08,329 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:08,517 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:08,517 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:08,518 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:08,518 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:08,717 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:08,717 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:08,717 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:08,718 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:08,818 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:08,818 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:08,818 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:08,819 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:08,838 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:08,838 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:08,838 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:08,838 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:08,839 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:08,839 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:08,840 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 ROLE_CHANGE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:08,840 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:08,842 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:09,017 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:09,017 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:09,017 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:09,018 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:09,117 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:09,118 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:09,118 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:09,118 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:09,317 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:09,317 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:09,317 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:09,318 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:09,335 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:09,336 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:09,336 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:09,337 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:09,338 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:09,517 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:09,517 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:09,518 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:09,518 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:09,717 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:09,717 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:09,718 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:09,718 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:09,835 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:09,837 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:09,837 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:09,838 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:09,839 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:10,016 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:10,016 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:10,017 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:10,017 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:10,117 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:10,117 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:10,117 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:10,118 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:10,217 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:10,217 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:10,218 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:10,218 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:10,337 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:10,339 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:10,339 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:10,340 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:10,341 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:10,516 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:10,517 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:10,517 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:10,518 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:10,617 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:10,618 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:10,618 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:10,618 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:10,816 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:10,817 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:10,817 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:10,818 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:10,838 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:10,839 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:10,840 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:10,840 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:10,841 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:11,016 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:11,016 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:11,017 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:11,017 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:11,217 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:11,217 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:11,218 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:11,218 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:11,339 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:11,340 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:11,341 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:11,341 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:11,342 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:11,517 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:11,518 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:11,518 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:11,518 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:11,718 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:11,718 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:11,718 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:11,719 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:11,848 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:11,849 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:11,849 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:11,850 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:11,851 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:12,017 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:12,017 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:12,017 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:12,018 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:12,217 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:12,217 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:12,218 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:12,218 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:12,341 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:12,341 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:12,341 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:12,342 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:12,343 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:12,517 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:12,517 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:12,517 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:12,518 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:12,717 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:12,717 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:12,717 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:12,718 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:12,817 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:12,817 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:12,818 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:12,818 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:12,842 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:12,843 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:12,844 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:12,844 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:12,845 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:13,016 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:13,017 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:13,017 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:13,017 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:13,216 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:13,217 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:13,217 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:13,217 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:13,343 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:13,343 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:13,344 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:13,344 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:13,344 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:13,517 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:13,518 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:13,518 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:13,518 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:13,716 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:13,717 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:13,717 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:13,717 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:13,843 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:13,843 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:13,844 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:13,844 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:13,845 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:14,016 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:14,017 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:14,017 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:14,018 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:14,217 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:14,217 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 PING
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:14,217 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:14,218 [pool-4-thread-1] INFO - Trying receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:43)
+2022-12-18 14:59:14,344 [pool-4-thread-1] INFO - Receive message... on port=60143, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:45)
+2022-12-18 14:59:14,344 [pool-4-thread-1] INFO - Get message from /172.23.224.1 54482 STATE
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.receive(SocketWrap.java:50)
+2022-12-18 14:59:14,345 [pool-4-thread-1] INFO - Send to /172.23.224.1, 54482 ACK
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.protocol.SocketWrap.send(SocketWrap.java:26)
+2022-12-18 14:59:14,345 [pool-4-thread-1] INFO - get point lists
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.model.Snake.convertFromProto(Snake.java:64)
+2022-12-18 14:59:14,612 [pool-5-thread-1] INFO - Connect 54482 /172.23.224.1
+Caller+0	 at ru.nsu.org.main.lab4snake@1.0-SNAPSHOT/ru.nsu.org.main.lab4snake.backend.mcHandlers.MenuHandler.changeListAvailableServer(MenuHandler.java:36)

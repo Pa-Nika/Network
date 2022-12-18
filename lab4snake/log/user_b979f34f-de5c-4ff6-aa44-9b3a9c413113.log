@@ -1,0 +1,1006 @@
+2022-12-09 00:03:34,188 [JavaFX Application Thread] INFO - Start game on client!
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/GameController.start(GameController.java:110)
+2022-12-09 00:03:34,326 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:34,826 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:34,827 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:35,328 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:35,328 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:35,829 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:35,830 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:36,331 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:36,331 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:36,832 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:36,833 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:37,334 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:37,334 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:37,615 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:37,616 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:37,618 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:37,623 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:37,624 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:37,624 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:37,625 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:37,625 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:37,797 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:37,797 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:37,799 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:37,799 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:37,800 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:37,800 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:37,800 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:37,800 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:37,986 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:37,988 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:37,988 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:37,989 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:37,989 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:37,990 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:37,990 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:37,990 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:38,167 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:38,168 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:38,169 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:38,169 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:38,170 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:38,170 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:38,171 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:38,171 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:38,346 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:38,346 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:38,347 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:38,347 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:38,348 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:38,348 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:38,348 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:38,349 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:38,849 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:38,850 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:39,350 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:39,354 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:39,857 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:39,860 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:40,362 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:40,366 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:40,868 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:40,871 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:41,373 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:41,376 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:41,879 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:41,882 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:42,094 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:42,098 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:42,100 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:42,102 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:42,106 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:42,110 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:42,112 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:42,114 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:42,585 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:42,591 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:42,594 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:42,596 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:42,600 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:42,606 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:42,608 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:42,611 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:42,745 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:42,749 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:42,751 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:42,753 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:42,757 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:42,759 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:42,762 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:42,764 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:42,929 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:42,933 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:42,935 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:42,937 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:42,940 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:42,943 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:42,945 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:42,948 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:43,154 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:43,157 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:43,160 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:43,162 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:43,165 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:43,168 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:43,171 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:43,173 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:43,580 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:43,584 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:43,586 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:43,588 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:43,592 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:43,594 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:43,596 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:43,599 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:43,805 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:43,809 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:43,812 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:43,815 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:43,819 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:43,822 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:43,823 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:43,826 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:44,327 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:44,328 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:44,709 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:44,710 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:44,711 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:44,711 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:44,712 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:44,712 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:44,713 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:44,713 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:45,213 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:45,214 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:45,714 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:45,715 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:46,216 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:46,219 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:46,571 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:46,575 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:46,578 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:46,580 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:46,584 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:46,587 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:46,589 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:46,591 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:47,094 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:47,097 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:47,245 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:47,248 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:47,250 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:47,252 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:47,256 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:47,259 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:47,261 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:47,263 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:47,766 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:47,768 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:48,269 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:48,272 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:48,774 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:48,777 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:49,279 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:49,282 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:49,784 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:49,788 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:50,290 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:50,293 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:50,796 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:50,801 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:51,303 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:51,304 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:51,553 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:51,554 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:51,554 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:51,554 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:51,555 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:51,555 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:51,555 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:51,555 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:52,056 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:52,057 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:52,558 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:52,558 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:53,058 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:53,059 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:53,094 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:53,095 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:53,096 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:53,096 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:53,097 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:53,097 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:53,097 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:53,098 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:53,599 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:53,600 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:54,100 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:54,101 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:54,365 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:54,366 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:54,366 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:54,367 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:54,368 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:54,369 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:54,370 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:54,370 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:54,871 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:54,872 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:55,373 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:55,373 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:55,874 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:55,875 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:56,181 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:56,182 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:56,182 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:56,183 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:56,183 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:56,184 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:56,185 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:56,185 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:56,685 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:56,686 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:57,027 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:57,029 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:57,030 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:57,031 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:57,032 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:57,033 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:57,034 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:57,035 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:57,538 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:57,538 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:58,038 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:58,039 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:58,539 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:58,540 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:59,041 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:59,042 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:59,543 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:03:59,544 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:59,678 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:59,679 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:59,679 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:59,680 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:03:59,680 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:03:59,681 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:03:59,681 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:03:59,681 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:00,182 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:00,182 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:00,683 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:00,684 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:01,139 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:04:01,140 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:04:01,141 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:04:01,141 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:04:01,142 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:01,142 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:04:01,142 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:04:01,143 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:01,644 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:01,645 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:02,145 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:02,145 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:02,647 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:02,648 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:03,148 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:03,148 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:03,649 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:03,650 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:04,150 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:04,151 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:04,578 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:04:04,579 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:04:04,579 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:04:04,580 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:04:04,580 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:04,581 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:04:04,581 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:04:04,581 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:05,081 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:05,082 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:05,582 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:05,583 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:06,084 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:06,084 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:06,584 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:06,585 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:07,085 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:07,086 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:07,587 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:07,588 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:08,088 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:08,089 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:08,270 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:04:08,272 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:04:08,272 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:04:08,273 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:04:08,274 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:08,274 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:04:08,274 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:04:08,275 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:08,775 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:08,776 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:09,276 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:09,277 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:09,779 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:09,780 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:10,280 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:10,280 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:10,782 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:10,782 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:11,283 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:11,283 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:11,784 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:11,784 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:12,284 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:12,287 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:12,786 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:12,787 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:13,288 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:13,289 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:13,790 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:13,790 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:14,291 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:14,291 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:14,541 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:04:14,542 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:04:14,542 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:04:14,543 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:04:14,543 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:14,544 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:04:14,544 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:04:14,544 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:15,044 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:15,045 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:15,545 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:15,546 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:16,048 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:16,048 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:16,549 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:16,549 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:17,050 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:17,050 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:17,551 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:17,551 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:17,661 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:04:17,662 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:04:17,663 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:04:17,663 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:04:17,664 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:17,664 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:04:17,664 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:04:17,664 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:18,164 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:18,165 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:18,665 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:18,666 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:18,667 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:04:18,669 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:04:18,669 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:04:18,669 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:04:18,670 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:18,670 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:04:18,671 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:04:18,671 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:19,171 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:19,171 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:19,390 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:04:19,391 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:04:19,391 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:04:19,391 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:04:19,392 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:19,392 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:04:19,392 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:04:19,393 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:19,894 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:19,895 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:20,395 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:20,395 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:20,896 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:20,897 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:21,010 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:04:21,011 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:04:21,011 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:04:21,012 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:04:21,013 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:21,013 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:04:21,013 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:04:21,014 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:21,515 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:21,516 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:21,828 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:04:21,829 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:04:21,829 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:04:21,830 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:04:21,830 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:21,831 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:04:21,831 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:04:21,831 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:22,332 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:22,332 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:22,565 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:04:22,566 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:04:22,566 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:04:22,566 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:04:22,566 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:22,567 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:04:22,567 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:04:22,567 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:22,934 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:04:22,935 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:04:22,936 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:04:22,937 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:04:22,937 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:22,938 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:04:22,939 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:04:22,939 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:23,368 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:04:23,369 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:04:23,369 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:04:23,369 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:04:23,370 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:23,370 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:04:23,370 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:04:23,371 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:23,497 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:04:23,498 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:04:23,498 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:04:23,499 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:04:23,500 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:23,501 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:04:23,501 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:04:23,501 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:23,741 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:04:23,742 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:04:23,742 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:04:23,743 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:04:23,743 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:23,743 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:04:23,744 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:04:23,744 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:23,876 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:04:23,877 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:04:23,877 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:04:23,877 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:04:23,878 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:23,878 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:04:23,878 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:04:23,879 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:24,042 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:04:24,043 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:04:24,044 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:04:24,044 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:04:24,045 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:24,045 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:04:24,045 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:04:24,046 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:24,215 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:04:24,216 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:04:24,216 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:04:24,217 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:04:24,217 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:24,218 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:04:24,218 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:04:24,218 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:24,330 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:04:24,331 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:04:24,331 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:04:24,331 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:04:24,332 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:24,333 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:04:24,333 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:04:24,334 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:24,494 [pool-3-thread-1] INFO - Send to /127.0.0.1, 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:04:24,495 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:04:24,495 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 STEER
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:04:24,496 [pool-5-thread-1] INFO - Send to /127.0.0.1, 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.send(SocketWrap.java:26)
+2022-12-09 00:04:24,496 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:24,496 [pool-5-thread-1] INFO - Receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:45)
+2022-12-09 00:04:24,497 [pool-5-thread-1] INFO - Get message from /127.0.0.1 56757 ACK
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:50)
+2022-12-09 00:04:24,497 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:24,997 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:24,997 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:25,499 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:25,499 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:26,000 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:26,001 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:26,502 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:26,503 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:27,003 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:27,006 [pool-5-thread-1] INFO - Trying receive message... on port=56757, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:27,506 [pool-5-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:28,932 [JavaFX Application Thread] INFO - Start game on client!
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/GameController.start(GameController.java:110)
+2022-12-09 00:04:28,937 [pool-9-thread-1] INFO - Trying receive message... on port=52889, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:29,439 [pool-9-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:29,439 [pool-9-thread-1] INFO - Trying receive message... on port=52889, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:29,939 [pool-9-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
+2022-12-09 00:04:30,468 [JavaFX Application Thread] INFO - Start game on client!
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/GameController.start(GameController.java:110)
+2022-12-09 00:04:30,525 [pool-13-thread-1] INFO - Trying receive message... on port=63181, addr=/0:0:0:0:0:0:0:0
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:43)
+2022-12-09 00:04:31,026 [pool-13-thread-1] INFO - Socket timeout
+Caller+0	 at ru.nsu.kudryavtsev.andrey.lab4snake@1.0-SNAPSHOT/SocketWrap.receive(SocketWrap.java:53)
